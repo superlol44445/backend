@@ -1,13 +1,13 @@
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Utf8Json;
 
 
 
 namespace API_Backend
 {
-    public class product
+    public class Product
     {
         public string name { get; set; }
         public string? description { get; set; }
@@ -19,22 +19,37 @@ namespace API_Backend
     }
     internal class Program
     {
-        public static product[] products;
+        public static Product[] products;
         static void Main(string[] args)
         {
             string Products_File_Path = "Products.json";
             byte[] Product_Data = File.ReadAllBytes(Products_File_Path);
             
-            products = JsonSerializer.Deserialize<product[]>(Product_Data);
+            products = JsonSerializer.Deserialize<Product[]>(Product_Data);
 
-            IHostBuilder builder = new HostBuilder();
-            
+            var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddControllers();
+
+            var app = builder.Build();
+
+            app.UseHttpsRedirection();
+            app.UseRouting();
+            app.MapControllers();
+
+            Thread thread = new Thread(app.Run); 
+            thread.Start();
+            while (true)
+            {
+                Console.WriteLine("11");
+                Thread.Sleep(100);
+            }
             
         }
         [RequireHttps]
         [ApiController]
         [Route("api/pagedata")]
-        public class Fetch_Pagedata
+        public class Fetch_Pagedata : ControllerBase
         {
             [HttpGet()]
             [Route("Index")]
@@ -59,7 +74,7 @@ namespace API_Backend
             }
             [HttpGet()]
             [Route("product")]
-            public IActionResult Product_Data()
+            public IActionResult Product_Data([FromQuery] int id)
             {
                 IActionResult result;
 
