@@ -1,0 +1,20 @@
+[
+	{
+	"name":"Neat thing",
+	"description":"this is a neat thing",
+	"id":1,
+	"cost":100,
+	"amount_bought":0,
+	"coupon_ids":[],
+	"categories":[""]
+	},
+	{
+	"name":"best thing",
+	"description":"cant get anything better than this",
+	"id":2,
+	"cost":1000,
+	"amount_bought":0,
+	"coupon_ids":[],
+	"categories":[""]
+	}
+]

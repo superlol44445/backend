@@ -61,3 +61,8 @@ C:\Users\leo\Desktop\web utvekling\Backend\obj\Debug\net8.0\Backend.csproj.Up2Da
 C:\Users\leo\Desktop\web utvekling\Backend\obj\Debug\net8.0\Backend.genruntimeconfig.cache
 C:\Users\leo\Desktop\web utvekling\Backend\obj\Debug\net8.0\ref\Backend.dll
 C:\Users\leo\Desktop\web utvekling\Backend\bin\Debug\net8.0\Products.json
+C:\Users\leogi\source\repos\backend\bin\Debug\net8.0\Utf8Json.dll
+C:\Users\leogi\source\repos\backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
+C:\Users\leogi\source\repos\backend\obj\Debug\net8.0\Backend.sourcelink.json
+C:\Users\leogi\source\repos\backend\obj\Debug\net8.0\Backend.csproj.Up2Date
+C:\Users\leogi\source\repos\backend\bin\Debug\net8.0\Products.json
