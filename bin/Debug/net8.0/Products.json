@@ -1,20 +1,1464 @@
-[
-	{
-	"name":"Neat thing",
-	"description":"this is a neat thing",
-	"id":1,
-	"cost":100,
-	"amount_bought":0,
-	"coupon_ids":[],
-	"categories":[""]
-	},
-	{
-	"name":"best thing",
-	"description":"cant get anything better than this",
-	"id":2,
-	"cost":1000,
-	"amount_bought":0,
-	"coupon_ids":[],
-	"categories":[""]
-	}
-]
+{
+  "cpu": {
+    "intel": {
+      "3": {
+        "name": "Core i7-12700K",
+        "description": "An Intel Core i7-12700K",
+        "id": 3,
+        "cost": 120,
+        "amount_bought": 67,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1700",
+        "clock_speed": "3.6GHz",
+        "boost_clock": "5.0GHz",
+        "cores": "12",
+        "TDP": "125 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i7"
+        ]
+      },
+      "5": {
+        "name": "Core i5-12600K",
+        "description": "An Intel Core i5-12600K",
+        "id": 5,
+        "cost": 95,
+        "amount_bought": 84,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1700",
+        "clock_speed": "3.7GHz",
+        "boost_clock": "4.9GHz",
+        "cores": "10",
+        "TDP": "125 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i5"
+        ]
+      },
+      "8": {
+        "name": "Core i9-13900K",
+        "description": "An Intel Core i9-13900K",
+        "id": 8,
+        "cost": 200,
+        "amount_bought": 33,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1700",
+        "clock_speed": "3.0GHz",
+        "boost_clock": "5.8GHz",
+        "cores": "24",
+        "TDP": "125 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i9"
+        ]
+      },
+      "10": {
+        "name": "Core i3-12100F",
+        "description": "An Intel Core i3-12100F",
+        "id": 10,
+        "cost": 50,
+        "amount_bought": 91,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1700",
+        "clock_speed": "3.3GHz",
+        "boost_clock": "4.3GHz",
+        "cores": "4",
+        "TDP": "58 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i3"
+        ]
+      },
+      "12": {
+        "name": "Core i7-11700K",
+        "description": "An Intel Core i7-11700K",
+        "id": 12,
+        "cost": 115,
+        "amount_bought": 38,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1200",
+        "clock_speed": "3.6GHz",
+        "boost_clock": "5.0GHz",
+        "cores": "8",
+        "TDP": "125 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i7"
+        ]
+      },
+      "14": {
+        "name": "Core i5-12400F",
+        "description": "An Intel Core i5-12400F",
+        "id": 14,
+        "cost": 85,
+        "amount_bought": 49,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1700",
+        "clock_speed": "2.5GHz",
+        "boost_clock": "4.4GHz",
+        "cores": "6",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i5"
+        ]
+      },
+      "16": {
+        "name": "Core i9-12900K",
+        "description": "An Intel Core i9-12900K",
+        "id": 16,
+        "cost": 190,
+        "amount_bought": 9,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1700",
+        "clock_speed": "3.2GHz",
+        "boost_clock": "5.2GHz",
+        "cores": "16",
+        "TDP": "125 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i9"
+        ]
+      },
+      "18": {
+        "name": "Core i3-10100F",
+        "description": "An Intel Core i3-10100F",
+        "id": 18,
+        "cost": 45,
+        "amount_bought": 77,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1200",
+        "clock_speed": "3.6GHz",
+        "boost_clock": "4.3GHz",
+        "cores": "4",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i3"
+        ]
+      },
+      "20": {
+        "name": "Core i5-11600K",
+        "description": "An Intel Core i5-11600K",
+        "id": 20,
+        "cost": 100,
+        "amount_bought": 60,
+        "coupon_ids": {},
+        "manufacturer": "intel",
+        "socket": "LGA1200",
+        "clock_speed": "3.9GHz",
+        "boost_clock": "4.9GHz",
+        "cores": "6",
+        "TDP": "125 W",
+        "categories": [
+          "cpu",
+          "intel",
+          "core i5"
+        ]
+      }
+    },
+    "amd": {
+      "1": {
+        "name": "Ryzen 7 5800X",
+        "description": "An AMD Ryzen 7 5800X",
+        "id": 1,
+        "cost": 100,
+        "amount_bought": 23,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.8GHz",
+        "boost_clock": "4.7GHz",
+        "cores": "8",
+        "TDP": "105 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 7"
+        ]
+      },
+      "2": {
+        "name": "Ryzen 9 5900X",
+        "description": "An AMD Ryzen 9 5900X",
+        "id": 2,
+        "cost": 150,
+        "amount_bought": 41,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.7GHz",
+        "boost_clock": "4.8GHz",
+        "cores": "12",
+        "TDP": "105 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 9"
+        ]
+      },
+      "4": {
+        "name": "Threadripper 3970X",
+        "description": "An AMD Threadripper 3970X",
+        "id": 4,
+        "cost": 300,
+        "amount_bought": 12,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "TRX4",
+        "clock_speed": "3.7GHz",
+        "boost_clock": "4.5GHz",
+        "cores": "32",
+        "TDP": "280 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "threadripper"
+        ]
+      },
+      "6": {
+        "name": "Ryzen 5 5600X",
+        "description": "An AMD Ryzen 5 5600X",
+        "id": 6,
+        "cost": 90,
+        "amount_bought": 56,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.7GHz",
+        "boost_clock": "4.6GHz",
+        "cores": "6",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 5"
+        ]
+      },
+      "7": {
+        "name": "Ryzen 3 3300X",
+        "description": "An AMD Ryzen 3 3300X",
+        "id": 7,
+        "cost": 55,
+        "amount_bought": 18,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.8GHz",
+        "boost_clock": "4.3GHz",
+        "cores": "4",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 3"
+        ]
+      },
+      "9": {
+        "name": "Ryzen 7 5700G",
+        "description": "An AMD Ryzen 7 5700G",
+        "id": 9,
+        "cost": 110,
+        "amount_bought": 27,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.8GHz",
+        "boost_clock": "4.6GHz",
+        "cores": "8",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 7"
+        ]
+      },
+      "11": {
+        "name": "Ryzen 9 5950X",
+        "description": "An AMD Ryzen 9 5950X",
+        "id": 11,
+        "cost": 180,
+        "amount_bought": 14,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.4GHz",
+        "boost_clock": "4.9GHz",
+        "cores": "16",
+        "TDP": "105 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 9"
+        ]
+      },
+      "13": {
+        "name": "Ryzen 5 3600",
+        "description": "An AMD Ryzen 5 3600",
+        "id": 13,
+        "cost": 70,
+        "amount_bought": 62,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.6GHz",
+        "boost_clock": "4.2GHz",
+        "cores": "6",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 5"
+        ]
+      },
+      "15": {
+        "name": "Ryzen 7 3800X",
+        "description": "An AMD Ryzen 7 3800X",
+        "id": 15,
+        "cost": 105,
+        "amount_bought": 21,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.9GHz",
+        "boost_clock": "4.5GHz",
+        "cores": "8",
+        "TDP": "105 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 7"
+        ]
+      },
+      "17": {
+        "name": "Ryzen 5 5500",
+        "description": "An AMD Ryzen 5 5500",
+        "id": 17,
+        "cost": 75,
+        "amount_bought": 53,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.6GHz",
+        "boost_clock": "4.2GHz",
+        "cores": "6",
+        "TDP": "65 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 5"
+        ]
+      },
+      "19": {
+        "name": "Ryzen 9 3900X",
+        "description": "An AMD Ryzen 9 3900X",
+        "id": 19,
+        "cost": 140,
+        "amount_bought": 29,
+        "coupon_ids": {},
+        "manufacturer": "amd",
+        "socket": "AM4",
+        "clock_speed": "3.8GHz",
+        "boost_clock": "4.6GHz",
+        "cores": "12",
+        "TDP": "105 W",
+        "categories": [
+          "cpu",
+          "amd",
+          "ryzen 9"
+        ]
+      }
+    }
+  },
+  "gpu": {
+    "nvidia": {
+      "21": {
+        "name": "Asus STRIX RTX 3080",
+        "description": "An Nvidia Geforce RTX 3080 graphics card manufactured by Asus",
+        "id": 21,
+        "cost": 5000,
+        "amount_bought": 29,
+        "coupon_ids": {},
+        "manufacturer": "Asus",
+        "clock_speed": "1440MHz",
+        "boost_clock": "1935MHz",
+        "memory": "10 GB",
+        "memory_clock": "10GHz",
+        "TDP": "320 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 2,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "asus",
+          "30 series"
+        ]
+      },
+      "22": {
+        "name": "MSI Ventus RTX 3090",
+        "description": "An Nvidia Geforce RTX 3090 graphics card manufactured by MSI",
+        "id": 22,
+        "cost": 6000,
+        "amount_bought": 45,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "clock_speed": "1395MHz",
+        "boost_clock": "1695MHz",
+        "memory": "24 GB",
+        "memory_clock": "19.5GHz",
+        "TDP": "350 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "msi",
+          "30 series"
+        ]
+      },
+      "23": {
+        "name": "Gigabyte AORUS RTX 3070",
+        "description": "An Nvidia Geforce RTX 3070 graphics card manufactured by Gigabyte",
+        "id": 23,
+        "cost": 4000,
+        "amount_bought": 67,
+        "coupon_ids": {},
+        "manufacturer": "Gigabyte",
+        "clock_speed": "1500MHz",
+        "boost_clock": "1725MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "220 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 2,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "gigabyte",
+          "30 series"
+        ]
+      },
+      "24": {
+        "name": "EVGA FTW3 RTX 3060Ti",
+        "description": "An Nvidia Geforce RTX 3060Ti graphics card manufactured by EVGA",
+        "id": 24,
+        "cost": 3500,
+        "amount_bought": 82,
+        "coupon_ids": {},
+        "manufacturer": "EVGA",
+        "clock_speed": "1410MHz",
+        "boost_clock": "1665MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "200 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "evga",
+          "30 series"
+        ]
+      },
+      "27": {
+        "name": "Zotac Twin Edge RTX 3050",
+        "description": "An Nvidia Geforce RTX 3050 graphics card manufactured by Zotac",
+        "id": 27,
+        "cost": 2500,
+        "amount_bought": 91,
+        "coupon_ids": {},
+        "manufacturer": "Zotac",
+        "clock_speed": "1552MHz",
+        "boost_clock": "1777MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "130 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "zotac",
+          "30 series"
+        ]
+      },
+      "29": {
+        "name": "PNY XLR8 RTX 3080Ti",
+        "description": "An Nvidia Geforce RTX 3080Ti graphics card manufactured by PNY",
+        "id": 29,
+        "cost": 5800,
+        "amount_bought": 42,
+        "coupon_ids": {},
+        "manufacturer": "PNY",
+        "clock_speed": "1365MHz",
+        "boost_clock": "1665MHz",
+        "memory": "12 GB",
+        "memory_clock": "19GHz",
+        "TDP": "350 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "pny",
+          "30 series"
+        ]
+      },
+      "31": {
+        "name": "Gainward Phoenix RTX 3060",
+        "description": "An Nvidia Geforce RTX 3060 graphics card manufactured by Gainward",
+        "id": 31,
+        "cost": 3200,
+        "amount_bought": 59,
+        "coupon_ids": {},
+        "manufacturer": "Gainward",
+        "clock_speed": "1320MHz",
+        "boost_clock": "1777MHz",
+        "memory": "12 GB",
+        "memory_clock": "15GHz",
+        "TDP": "170 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "gainward",
+          "30 series"
+        ]
+      },
+      "32": {
+        "name": "Inno3D iChill RTX 3090Ti",
+        "description": "An Nvidia Geforce RTX 3090Ti graphics card manufactured by Inno3D",
+        "id": 32,
+        "cost": 6500,
+        "amount_bought": 24,
+        "coupon_ids": {},
+        "manufacturer": "Inno3D",
+        "clock_speed": "1560MHz",
+        "boost_clock": "1860MHz",
+        "memory": "24 GB",
+        "memory_clock": "21GHz",
+        "TDP": "450 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "inno3d",
+          "30 series"
+        ]
+      },
+      "34": {
+        "name": "Palit StormX RTX 3070Ti",
+        "description": "An Nvidia Geforce RTX 3070Ti graphics card manufactured by Palit",
+        "id": 34,
+        "cost": 4400,
+        "amount_bought": 51,
+        "coupon_ids": {},
+        "manufacturer": "Palit",
+        "clock_speed": "1575MHz",
+        "boost_clock": "1770MHz",
+        "memory": "8 GB",
+        "memory_clock": "19GHz",
+        "TDP": "290 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "palit",
+          "30 series"
+        ]
+      },
+      "35": {
+        "name": "Manli RTX 3060",
+        "description": "An Nvidia Geforce RTX 3060 graphics card manufactured by Manli",
+        "id": 35,
+        "cost": 3100,
+        "amount_bought": 63,
+        "coupon_ids": {},
+        "manufacturer": "Manli",
+        "clock_speed": "1320MHz",
+        "boost_clock": "1777MHz",
+        "memory": "12 GB",
+        "memory_clock": "15GHz",
+        "TDP": "170 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "manli",
+          "30 series"
+        ]
+      },
+      "38": {
+        "name": "MSI Gaming X RTX 3080",
+        "description": "An Nvidia Geforce RTX 3080 graphics card manufactured by MSI",
+        "id": 38,
+        "cost": 5200,
+        "amount_bought": 47,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "clock_speed": "1440MHz",
+        "boost_clock": "1815MHz",
+        "memory": "10 GB",
+        "memory_clock": "19GHz",
+        "TDP": "320 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "msi",
+          "30 series"
+        ]
+      },
+      "40": {
+        "name": "EVGA XC3 RTX 3070",
+        "description": "An Nvidia Geforce RTX 3070 graphics card manufactured by EVGA",
+        "id": 40,
+        "cost": 4100,
+        "amount_bought": 62,
+        "coupon_ids": {},
+        "manufacturer": "EVGA",
+        "clock_speed": "1500MHz",
+        "boost_clock": "1725MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "220 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "evga",
+          "30 series"
+        ]
+      },
+      "42": {
+        "name": "Zotac Trinity RTX 3090",
+        "description": "An Nvidia Geforce RTX 3090 graphics card manufactured by Zotac",
+        "id": 42,
+        "cost": 6200,
+        "amount_bought": 28,
+        "coupon_ids": {},
+        "manufacturer": "Zotac",
+        "clock_speed": "1395MHz",
+        "boost_clock": "1695MHz",
+        "memory": "24 GB",
+        "memory_clock": "19.5GHz",
+        "TDP": "350 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "zotac",
+          "30 series"
+        ]
+      },
+      "44": {
+        "name": "PNY Verto RTX 3060Ti",
+        "description": "An Nvidia Geforce RTX 3060Ti graphics card manufactured by PNY",
+        "id": 44,
+        "cost": 3600,
+        "amount_bought": 58,
+        "coupon_ids": {},
+        "manufacturer": "PNY",
+        "clock_speed": "1410MHz",
+        "boost_clock": "1665MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "200 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "nvidia",
+          "pny",
+          "30 series"
+        ]
+      }
+    },
+    "amd": {
+      "25": {
+        "name": "ASRock Phantom RX 6800XT",
+        "description": "An AMD Radeon RX 6800XT graphics card manufactured by ASRock",
+        "id": 25,
+        "cost": 4800,
+        "amount_bought": 56,
+        "coupon_ids": {},
+        "manufacturer": "ASRock",
+        "clock_speed": "1825MHz",
+        "boost_clock": "2250MHz",
+        "memory": "16 GB",
+        "memory_clock": "16GHz",
+        "TDP": "300 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 2,
+        "categories": [
+          "gpu",
+          "amd",
+          "asrock",
+          "rx 6000"
+        ]
+      },
+      "26": {
+        "name": "Sapphire Nitro+ RX 6700XT",
+        "description": "An AMD Radeon RX 6700XT graphics card manufactured by Sapphire",
+        "id": 26,
+        "cost": 3800,
+        "amount_bought": 73,
+        "coupon_ids": {},
+        "manufacturer": "Sapphire",
+        "clock_speed": "2321MHz",
+        "boost_clock": "2581MHz",
+        "memory": "12 GB",
+        "memory_clock": "16GHz",
+        "TDP": "230 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 2,
+        "categories": [
+          "gpu",
+          "amd",
+          "sapphire",
+          "rx 6000"
+        ]
+      },
+      "28": {
+        "name": "PowerColor Red Devil RX 6900XT",
+        "description": "An AMD Radeon RX 6900XT graphics card manufactured by PowerColor",
+        "id": 28,
+        "cost": 5500,
+        "amount_bought": 37,
+        "coupon_ids": {},
+        "manufacturer": "PowerColor",
+        "clock_speed": "1825MHz",
+        "boost_clock": "2250MHz",
+        "memory": "16 GB",
+        "memory_clock": "16GHz",
+        "TDP": "300 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 2,
+        "categories": [
+          "gpu",
+          "amd",
+          "powercolor",
+          "rx 6000"
+        ]
+      },
+      "30": {
+        "name": "XFX Speedster RX 6600XT",
+        "description": "An AMD Radeon RX 6600XT graphics card manufactured by XFX",
+        "id": 30,
+        "cost": 3200,
+        "amount_bought": 68,
+        "coupon_ids": {},
+        "manufacturer": "XFX",
+        "clock_speed": "1968MHz",
+        "boost_clock": "2589MHz",
+        "memory": "8 GB",
+        "memory_clock": "16GHz",
+        "TDP": "160 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "amd",
+          "xfx",
+          "rx 6000"
+        ]
+      },
+      "36": {
+        "name": "VisionTek RX 6500XT",
+        "description": "An AMD Radeon RX 6500XT graphics card manufactured by VisionTek",
+        "id": 36,
+        "cost": 1800,
+        "amount_bought": 89,
+        "coupon_ids": {},
+        "manufacturer": "VisionTek",
+        "clock_speed": "2310MHz",
+        "boost_clock": "2610MHz",
+        "memory": "4 GB",
+        "memory_clock": "18GHz",
+        "TDP": "107 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 1,
+        "categories": [
+          "gpu",
+          "amd",
+          "visiontek",
+          "rx 6000"
+        ]
+      },
+      "37": {
+        "name": "ASUS TUF RX 6800",
+        "description": "An AMD Radeon RX 6800 graphics card manufactured by ASUS",
+        "id": 37,
+        "cost": 4700,
+        "amount_bought": 38,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "clock_speed": "1815MHz",
+        "boost_clock": "2105MHz",
+        "memory": "16 GB",
+        "memory_clock": "16GHz",
+        "TDP": "250 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 2,
+        "categories": [
+          "gpu",
+          "amd",
+          "asus",
+          "rx 6000"
+        ]
+      },
+      "39": {
+        "name": "Gigabyte Gaming OC RX 6800",
+        "description": "An AMD Radeon RX 6800 graphics card manufactured by Gigabyte",
+        "id": 39,
+        "cost": 4900,
+        "amount_bought": 31,
+        "coupon_ids": {},
+        "manufacturer": "Gigabyte",
+        "clock_speed": "1815MHz",
+        "boost_clock": "2105MHz",
+        "memory": "16 GB",
+        "memory_clock": "16GHz",
+        "TDP": "250 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 2,
+        "categories": [
+          "gpu",
+          "amd",
+          "gigabyte",
+          "rx 6000"
+        ]
+      },
+      "41": {
+        "name": "Sapphire Pulse RX 6700XT",
+        "description": "An AMD Radeon RX 6700XT graphics card manufactured by Sapphire",
+        "id": 41,
+        "cost": 3700,
+        "amount_bought": 74,
+        "coupon_ids": {},
+        "manufacturer": "Sapphire",
+        "clock_speed": "2321MHz",
+        "boost_clock": "2581MHz",
+        "memory": "12 GB",
+        "memory_clock": "16GHz",
+        "TDP": "230 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 2,
+        "categories": [
+          "gpu",
+          "amd",
+          "sapphire",
+          "rx 6000"
+        ]
+      },
+      "43": {
+        "name": "ASRock Challenger RX 6600",
+        "description": "An AMD Radeon RX 6600 graphics card manufactured by ASRock",
+        "id": 43,
+        "cost": 3000,
+        "amount_bought": 85,
+        "coupon_ids": {},
+        "manufacturer": "ASRock",
+        "clock_speed": "2044MHz",
+        "boost_clock": "2491MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "132 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "amd",
+          "asrock",
+          "rx 6000"
+        ]
+      },
+      "45": {
+        "name": "PowerColor Fighter RX 6600",
+        "description": "An AMD Radeon RX 6600 graphics card manufactured by PowerColor",
+        "id": 45,
+        "cost": 2900,
+        "amount_bought": 79,
+        "coupon_ids": {},
+        "manufacturer": "PowerColor",
+        "clock_speed": "2044MHz",
+        "boost_clock": "2491MHz",
+        "memory": "8 GB",
+        "memory_clock": "14GHz",
+        "TDP": "132 W",
+        "interface": "PCIe x16",
+        "hdmi_ports": 1,
+        "displayport_ports": 3,
+        "categories": [
+          "gpu",
+          "amd",
+          "powercolor",
+          "rx 6000"
+        ]
+      }
+    }
+  },
+  "ram": {
+    "ddr3": {
+      "46": {
+        "name": "Corsair Vengeance DDR3 8GB",
+        "description": "Corsair Vengeance DDR3 8GB 1600MHz RAM stick",
+        "id": 46,
+        "cost": 30,
+        "amount_bought": 120,
+        "coupon_ids": {},
+        "manufacturer": "Corsair",
+        "speed": "1600MHz",
+        "size": "8 GB",
+        "voltage": "1.5 V",
+        "type": "DDR3",
+        "categories": [
+          "ram",
+          "ddr3",
+          "corsair",
+          "8GB"
+        ]
+      },
+      "47": {
+        "name": "Kingston HyperX DDR3 16GB",
+        "description": "Kingston HyperX DDR3 16GB 1866MHz RAM stick",
+        "id": 47,
+        "cost": 55,
+        "amount_bought": 75,
+        "coupon_ids": {},
+        "manufacturer": "Kingston",
+        "speed": "1866MHz",
+        "size": "16 GB",
+        "voltage": "1.5 V",
+        "type": "DDR3",
+        "categories": [
+          "ram",
+          "ddr3",
+          "kingston",
+          "16GB"
+        ]
+      }
+    },
+    "ddr4": {
+      "48": {
+        "name": "G.Skill Trident Z DDR4 16GB",
+        "description": "G.Skill Trident Z DDR4 16GB 3200MHz RAM stick",
+        "id": 48,
+        "cost": 75,
+        "amount_bought": 140,
+        "coupon_ids": {},
+        "manufacturer": "G.Skill",
+        "speed": "3200MHz",
+        "size": "16 GB",
+        "voltage": "1.35 V",
+        "type": "DDR4",
+        "categories": [
+          "ram",
+          "ddr4",
+          "gskill",
+          "16GB"
+        ]
+      },
+      "49": {
+        "name": "Corsair Dominator Platinum DDR4 32GB",
+        "description": "Corsair Dominator Platinum DDR4 32GB 3600MHz RAM stick",
+        "id": 49,
+        "cost": 140,
+        "amount_bought": 65,
+        "coupon_ids": {},
+        "manufacturer": "Corsair",
+        "speed": "3600MHz",
+        "size": "32 GB",
+        "voltage": "1.35 V",
+        "type": "DDR4",
+        "categories": [
+          "ram",
+          "ddr4",
+          "corsair",
+          "32GB"
+        ]
+      }
+    },
+    "ddr5": {
+      "50": {
+        "name": "Kingston Fury Beast DDR5 16GB",
+        "description": "Kingston Fury Beast DDR5 16GB 4800MHz RAM stick",
+        "id": 50,
+        "cost": 120,
+        "amount_bought": 50,
+        "coupon_ids": {},
+        "manufacturer": "Kingston",
+        "speed": "4800MHz",
+        "size": "16 GB",
+        "voltage": "1.1 V",
+        "type": "DDR5",
+        "categories": [
+          "ram",
+          "ddr5",
+          "kingston",
+          "16GB"
+        ]
+      },
+      "51": {
+        "name": "Corsair Vengeance DDR5 32GB",
+        "description": "Corsair Vengeance DDR5 32GB 5200MHz RAM stick",
+        "id": 51,
+        "cost": 220,
+        "amount_bought": 30,
+        "coupon_ids": {},
+        "manufacturer": "Corsair",
+        "speed": "5200MHz",
+        "size": "32 GB",
+        "voltage": "1.1 V",
+        "type": "DDR5",
+        "categories": [
+          "ram",
+          "ddr5",
+          "corsair",
+          "32GB"
+        ]
+      }
+    }
+  },
+  "motherboard": {
+    "LGA1700": {
+      "52": {
+        "name": "ASUS ROG Strix Z690-E Gaming",
+        "description": "ASUS ROG Strix Z690-E Gaming motherboard with LGA1700 socket",
+        "id": 52,
+        "cost": 400,
+        "amount_bought": 40,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "socket": "LGA1700",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "Z690",
+        "categories": [
+          "motherboard",
+          "lga1700",
+          "asus",
+          "z690"
+        ]
+      },
+      "53": {
+        "name": "MSI MAG Z690 TOMAHAWK",
+        "description": "MSI MAG Z690 TOMAHAWK motherboard with LGA1700 socket",
+        "id": 53,
+        "cost": 350,
+        "amount_bought": 35,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "socket": "LGA1700",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "Z690",
+        "categories": [
+          "motherboard",
+          "lga1700",
+          "msi",
+          "z690"
+        ]
+      },
+      "57": {
+        "name": "Gigabyte Z690 AORUS Master",
+        "description": "Gigabyte Z690 AORUS Master motherboard with LGA1700 socket",
+        "id": 57,
+        "cost": 500,
+        "amount_bought": 20,
+        "coupon_ids": {},
+        "manufacturer": "Gigabyte",
+        "socket": "LGA1700",
+        "form_factor": "E-ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "Z690",
+        "categories": [
+          "motherboard",
+          "lga1700",
+          "gigabyte",
+          "z690"
+        ]
+      }
+    },
+    "AM4": {
+      "54": {
+        "name": "Gigabyte X570 AORUS Elite",
+        "description": "Gigabyte X570 AORUS Elite motherboard with AM4 socket",
+        "id": 54,
+        "cost": 280,
+        "amount_bought": 55,
+        "coupon_ids": {},
+        "manufacturer": "Gigabyte",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "X570",
+        "categories": [
+          "motherboard",
+          "am4",
+          "gigabyte",
+          "x570"
+        ]
+      },
+      "55": {
+        "name": "ASRock B550 Steel Legend",
+        "description": "ASRock B550 Steel Legend motherboard with AM4 socket",
+        "id": 55,
+        "cost": 190,
+        "amount_bought": 48,
+        "coupon_ids": {},
+        "manufacturer": "ASRock",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "B550",
+        "categories": [
+          "motherboard",
+          "am4",
+          "asrock",
+          "b550"
+        ]
+      },
+      "58": {
+        "name": "ASUS ROG Strix B550-F Gaming",
+        "description": "ASUS ROG Strix B550-F Gaming motherboard with AM4 socket",
+        "id": 58,
+        "cost": 220,
+        "amount_bought": 30,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "B550",
+        "categories": [
+          "motherboard",
+          "am4",
+          "asus",
+          "b550"
+        ]
+      },
+      "60": {
+        "name": "MSI B450 TOMAHAWK MAX",
+        "description": "MSI B450 TOMAHAWK MAX motherboard with AM4 socket",
+        "id": 60,
+        "cost": 110,
+        "amount_bought": 50,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "socket": "AM4",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "B450",
+        "categories": [
+          "motherboard",
+          "am4",
+          "msi",
+          "b450"
+        ]
+      }
+    },
+    "LGA1200": {
+      "56": {
+        "name": "ASUS TUF Gaming Z590-Plus",
+        "description": "ASUS TUF Gaming Z590-Plus motherboard with LGA1200 socket",
+        "id": 56,
+        "cost": 250,
+        "amount_bought": 33,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "socket": "LGA1200",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "Z590",
+        "categories": [
+          "motherboard",
+          "lga1200",
+          "asus",
+          "z590"
+        ]
+      },
+      "59": {
+        "name": "MSI Z490 Gaming Edge WiFi",
+        "description": "MSI Z490 Gaming Edge WiFi motherboard with LGA1200 socket",
+        "id": 59,
+        "cost": 230,
+        "amount_bought": 25,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "socket": "LGA1200",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "Z490",
+        "categories": [
+          "motherboard",
+          "lga1200",
+          "msi",
+          "z490"
+        ]
+      },
+      "61": {
+        "name": "ASRock Z490 Phantom Gaming 4",
+        "description": "ASRock Z490 Phantom Gaming 4 motherboard with LGA1200 socket",
+        "id": 61,
+        "cost": 160,
+        "amount_bought": 22,
+        "coupon_ids": {},
+        "manufacturer": "ASRock",
+        "socket": "LGA1200",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "Z490",
+        "categories": [
+          "motherboard",
+          "lga1200",
+          "asrock",
+          "z490"
+        ]
+      }
+    },
+    "LGA1151": {
+      "62": {
+        "name": "ASUS PRIME Z390-A",
+        "description": "ASUS PRIME Z390-A motherboard with LGA1151 socket",
+        "id": 62,
+        "cost": 180,
+        "amount_bought": 18,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "socket": "LGA1151",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "64 GB",
+        "chipset": "Z390",
+        "categories": [
+          "motherboard",
+          "lga1151",
+          "asus",
+          "z390"
+        ]
+      },
+      "63": {
+        "name": "MSI Z370-A PRO",
+        "description": "MSI Z370-A PRO motherboard with LGA1151 socket",
+        "id": 63,
+        "cost": 120,
+        "amount_bought": 15,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "socket": "LGA1151",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "64 GB",
+        "chipset": "Z370",
+        "categories": [
+          "motherboard",
+          "lga1151",
+          "msi",
+          "z370"
+        ]
+      }
+    },
+    "TRX40": {
+      "64": {
+        "name": "ASUS ROG Zenith II Extreme",
+        "description": "ASUS ROG Zenith II Extreme motherboard with TRX40 socket",
+        "id": 64,
+        "cost": 850,
+        "amount_bought": 10,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "socket": "TRX40",
+        "form_factor": "E-ATX",
+        "ram_slots": 8,
+        "max_ram_capacity": "256 GB",
+        "chipset": "TRX40",
+        "categories": [
+          "motherboard",
+          "trx40",
+          "asus",
+          "trx40"
+        ]
+      },
+      "65": {
+        "name": "Gigabyte TRX40 AORUS Master",
+        "description": "Gigabyte TRX40 AORUS Master motherboard with TRX40 socket",
+        "id": 65,
+        "cost": 800,
+        "amount_bought": 12,
+        "coupon_ids": {},
+        "manufacturer": "Gigabyte",
+        "socket": "TRX40",
+        "form_factor": "E-ATX",
+        "ram_slots": 8,
+        "max_ram_capacity": "256 GB",
+        "chipset": "TRX40",
+        "categories": [
+          "motherboard",
+          "trx40",
+          "gigabyte",
+          "trx40"
+        ]
+      }
+    },
+    "LGA2066": {
+      "66": {
+        "name": "MSI Creator X299",
+        "description": "MSI Creator X299 motherboard with LGA2066 socket",
+        "id": 66,
+        "cost": 500,
+        "amount_bought": 14,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "socket": "LGA2066",
+        "form_factor": "E-ATX",
+        "ram_slots": 8,
+        "max_ram_capacity": "128 GB",
+        "chipset": "X299",
+        "categories": [
+          "motherboard",
+          "lga2066",
+          "msi",
+          "x299"
+        ]
+      },
+      "67": {
+        "name": "ASRock X299 Taichi",
+        "description": "ASRock X299 Taichi motherboard with LGA2066 socket",
+        "id": 67,
+        "cost": 430,
+        "amount_bought": 16,
+        "coupon_ids": {},
+        "manufacturer": "ASRock",
+        "socket": "LGA2066",
+        "form_factor": "E-ATX",
+        "ram_slots": 8,
+        "max_ram_capacity": "128 GB",
+        "chipset": "X299",
+        "categories": [
+          "motherboard",
+          "lga2066",
+          "asrock",
+          "x299"
+        ]
+      }
+    },
+    "AM5": {
+      "68": {
+        "name": "ASUS ROG Crosshair X670E Hero",
+        "description": "ASUS ROG Crosshair X670E Hero motherboard with AM5 socket",
+        "id": 68,
+        "cost": 600,
+        "amount_bought": 18,
+        "coupon_ids": {},
+        "manufacturer": "ASUS",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "X670E",
+        "categories": [
+          "motherboard",
+          "am5",
+          "asus",
+          "x670e"
+        ]
+      },
+      "69": {
+        "name": "Gigabyte X670 AORUS Elite AX",
+        "description": "Gigabyte X670 AORUS Elite AX motherboard with AM5 socket",
+        "id": 69,
+        "cost": 400,
+        "amount_bought": 25,
+        "coupon_ids": {},
+        "manufacturer": "Gigabyte",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "X670",
+        "categories": [
+          "motherboard",
+          "am5",
+          "gigabyte",
+          "x670"
+        ]
+      },
+      "70": {
+        "name": "MSI MPG B650 CARBON WIFI",
+        "description": "MSI MPG B650 CARBON WIFI motherboard with AM5 socket",
+        "id": 70,
+        "cost": 330,
+        "amount_bought": 22,
+        "coupon_ids": {},
+        "manufacturer": "MSI",
+        "socket": "AM5",
+        "form_factor": "ATX",
+        "ram_slots": 4,
+        "max_ram_capacity": "128 GB",
+        "chipset": "B650",
+        "categories": [
+          "motherboard",
+          "am5",
+          "msi",
+          "b650"
+        ]
+      }
+    }
+  }
+}

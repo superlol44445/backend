@@ -1,0 +1,8 @@
+﻿@Backend_HostAddress = http://localhost:5000
+
+@type=cpu
+@brand=amd
+@id=13
+GET {{Backend_HostAddress}}/api/pagedata/product?part={{type}}&brand={{brand}}&id={{id}}
+
+###
